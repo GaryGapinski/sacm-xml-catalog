@@ -1,7 +1,30 @@
 sacm-xml-catalog
 ================
 
-XML Catalog for SACM-related schemata
+XML Catalog for SACM-related schemata.
+
+About
+-----
+
+sacm-xml-catalog provides copies of XML Schema documents commonly used in 
+SACM/[SCAP](http://scap.nist.gov/)
+XML documents allowing these copies to be used in lieu of direct
+network access to the "canonical" locations. These schema documents do not
+change very often, and local copies obviate the need for network access
+to the schema documents.
+
+Copies of various versions of
+[XCCDF](http://scap.nist.gov/specifications/xccdf/)
+, 
+[CPE](http://cpe.mitre.org/)
+, 
+[OVAL](http://oval.mitre.org/)
+, 
+and 
+[OCIL](http://scap.nist.gov/specifications/ocil/)
+schemata are provided.
+
+Exploitation requires an XML Catalog aware implementation. 
 
 License
 -------
