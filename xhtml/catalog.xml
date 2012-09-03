@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <public publicId="-//W3C//DTD XHTML 1.0 Strict//EN" uri="xhtml1-strict.dtd"/>
+    <system systemId="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" uri="xhtml1-strict.dtd"/>
+    <system systemId="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd" uri="xhtml1-strict.xsd"/>
+</catalog>

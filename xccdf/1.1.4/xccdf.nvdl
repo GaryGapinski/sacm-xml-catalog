@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
+    <namespace ns="http://checklists.nist.gov/xccdf/1.1">
+        <a:documentation>Begin with XCCDF</a:documentation>
+        <validate schema="xccdf-1.1.4.xsd">
+            <context path="description|notice|front-matter|rear-matter|rationale|warning|fixtext|profile-note">
+                <a:documentation>XHTML in XCCDF</a:documentation>
+                <mode>
+                    <namespace ns="http://www.w3.org/1999/xhtml">
+                        <validate schema="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/>
+                    </namespace>
+                </mode>
+            </context>
+            <context path="metadata|reference">
+                <a:documentation>DC in XCCDF</a:documentation>
+                <mode>
+                    <namespace ns="http://purl.org/dc/elements/1.1/">
+                        <!--<validate schema="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd"/>-->
+                        <allow/>
+                    </namespace>
+                    <namespace ns="http://checklists.nist.gov/sccf/0.1">
+                        <allow/>
+                    </namespace>
+                </mode>
+            </context>
+            <context path="check-content">
+                <a:documentation>Allow anything inside XCCDF check-content element</a:documentation>
+                <mode>
+                    <namespace ns="http://oval.mitre.org/XMLSchema/oval-definitions-5">
+                        <a:documentation>OVAL5</a:documentation>
+                        <attach message="Attaching a descendant OVAL5 section."/>
+                    </namespace>
+                    <anyNamespace>
+                        <allow/>
+                    </anyNamespace>
+                </mode>
+            </context>
+        </validate>
+    </namespace>
+</rules>

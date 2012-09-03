@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog
+    xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <!-- old 1.1.4 -->
+    <system
+        systemId="http://nvd.nist.gov/schema/xccdf-1.1.4.xsd"
+        uri="1.1.4/xccdf-1.1.4.xsd"/>
+    <system
+        systemId="http://cpe.mitre.org/files/cpe-dictionary_2.1.xsd"
+        uri="1.1.4/cpe-dictionary_2.1.xsd"/>
+    <!-- 1.1.4.3 -->
+    <system
+        systemId="http://scap.nist.gov/schema/xccdf/1.1/xccdf-1.1.4.xsd"
+        uri="1.1.4.3/xccdf-1.1.4.xsd"/>
+    <!-- 1.2 -->
+    <system
+        systemId="http://scap.nist.gov/schema/xccdf/1.2/xccdf_1.2.xsd"
+        uri="1.2/xccdf_1.2.xsd"/>
+</catalog>
