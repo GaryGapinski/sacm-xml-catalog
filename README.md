@@ -9,8 +9,8 @@ About
 sacm-xml-catalog provides copies of XML Schema documents commonly used in 
 SACM/[SCAP](http://scap.nist.gov/)
 XML documents allowing these copies to be used in lieu of direct
-network access to the "canonical" locations. These schema documents do not
-change very often, and local copies obviate the need for network access
+network access to the "canonical" locations. These schema documents change infrequently,
+and local copies obviate the need for network access
 to the schema documents.
 
 Copies of various versions of
@@ -49,11 +49,15 @@ using the `xsi:schemaLocation` attribute, e.g.,
     style="SCAP_1.1"
     resolved="false">
 ```
-sacm-xml-catalog can allow the use of local copies of
+sacm-xml-catalog allows the use of local copies of
 `http://nvd.nist.gov/schema/xccdf-1.1.4.xsd`
 and
 `http://cpe.mitre.org/files/cpe-dictionary_2.1.xsd`
-rather than ones obtained from those URIs.
+rather than ones obtained from those URIs. 
+See [xccdf/catalog.xml](xccdf/catalog.xml)
+and
+[cpe/catalog.xml](cpe/catalog.xml)
+for specifications of URI to local copy for the above example.
 
 License
 -------
@@ -64,7 +68,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    <http://www.apache.org/licenses/LICENSE-2.0>
+    [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
