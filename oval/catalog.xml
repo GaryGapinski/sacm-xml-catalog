@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <rewriteSystem systemIdStartString="http://oval.mitre.org/language/download/schema/version5.3/ovaldefinition/complete/" rewritePrefix="5.3/"/>
-    <rewriteSystem systemIdStartString="http://oval.mitre.org/language/download/schema/version5.4/ovaldefinition/complete/" rewritePrefix="5.4/"/>
-    <rewriteSystem systemIdStartString="http://oval.mitre.org/language/download/schema/version5.5/ovaldefinition/complete/" rewritePrefix="5.5/"/>
-    <rewriteSystem systemIdStartString="http://oval.mitre.org/language/download/schema/version5.6/ovaldefinition/complete/" rewritePrefix="5.6/"/>
-    <rewriteSystem systemIdStartString="http://oval.mitre.org/language/download/schema/version5.7/ovaldefinition/complete/" rewritePrefix="5.7/"/>
-    <rewriteSystem systemIdStartString="http://oval.mitre.org/language/download/schema/version5.8/ovaldefinition/complete/" rewritePrefix="5.8/"/>
-    <rewriteSystem systemIdStartString="http://oval.mitre.org/language/download/schema/version5.9/ovaldefinition/complete/" rewritePrefix="5.9/"/>
-    <rewriteSystem systemIdStartString="http://oval.mitre.org/language/download/schema/version5.10/ovaldefinition/complete/" rewritePrefix="5.10/"/>
-    <rewriteSystem systemIdStartString="http://oval.mitre.org/language/download/schema/version5.10.1/ovaldefinition/complete/" rewritePrefix="5.10.1/"/>
+<catalog
+    xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <rewriteSystem
+        systemIdStartString="http://oval.mitre.org/language/download/schema/version5.3/ovaldefinition/complete/"
+        rewritePrefix="5.3/"/>
+    <rewriteSystem
+        systemIdStartString="http://oval.mitre.org/language/download/schema/version5.4/ovaldefinition/complete/"
+        rewritePrefix="5.4/"/>
+    <rewriteSystem
+        systemIdStartString="http://oval.mitre.org/language/download/schema/version5.5/ovaldefinition/complete/"
+        rewritePrefix="5.5/"/>
+    <rewriteSystem
+        systemIdStartString="http://oval.mitre.org/language/download/schema/version5.6/ovaldefinition/complete/"
+        rewritePrefix="5.6/"/>
+    <rewriteSystem
+        systemIdStartString="http://oval.mitre.org/language/download/schema/version5.7/ovaldefinition/complete/"
+        rewritePrefix="5.7/"/>
+    <rewriteSystem
+        systemIdStartString="http://oval.mitre.org/language/download/schema/version5.8/ovaldefinition/complete/"
+        rewritePrefix="5.8/"/>
+    <rewriteSystem
+        systemIdStartString="http://oval.mitre.org/language/download/schema/version5.9/ovaldefinition/complete/"
+        rewritePrefix="5.9/"/>
+    <rewriteSystem
+        systemIdStartString="http://oval.mitre.org/language/download/schema/version5.10/ovaldefinition/complete/"
+        rewritePrefix="5.10/"/>
+    <rewriteSystem
+        systemIdStartString="http://oval.mitre.org/language/download/schema/version5.10.1/ovaldefinition/complete/"
+        rewritePrefix="5.10.1/"/>
 </catalog>
