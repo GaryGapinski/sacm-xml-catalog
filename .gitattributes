@@ -1,0 +1,5 @@
+* text=auto
+
+# leave xsd and dtd files alone (as they have been obtained from elsewhere and left alone)
+*.xsd binary
+*.dtd binary
