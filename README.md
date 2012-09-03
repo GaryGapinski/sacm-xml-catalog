@@ -30,7 +30,7 @@ aware implementation, such as
 [libxml](http://www.xmlsoft.org/catalog.html).
 
 XML documents can specify the URI of a related XML Schema document 
-using the `xsi:schemaLocation` attribute, e.g.
+using the `xsi:schemaLocation` attribute, e.g.,
 ```xml
 <Benchmark
     xmlns="http://checklists.nist.gov/xccdf/1.1"
@@ -49,7 +49,11 @@ using the `xsi:schemaLocation` attribute, e.g.
     style="SCAP_1.1"
     resolved="false">
 ```
-
+sacm-xml-catalog can allow the use of local copies of
+`http://nvd.nist.gov/schema/xccdf-1.1.4.xsd`
+and
+`http://cpe.mitre.org/files/cpe-dictionary_2.1.xsd`
+rather than ones obtained from those URIs.
 
 License
 -------
