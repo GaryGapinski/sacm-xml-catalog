@@ -1,12 +1,12 @@
 sacm-xml-catalog
 ================
 
-XML Catalog for SACM-related schemata.
+[XML Catalog][XML Catalog] for SACM-related schemata.
 
 About
 -----
 
-sacm-xml-catalog provides copies of XML Schema documents commonly used in 
+[sacm-xml-catalog][sacm-xml-catalog] provides copies of XML Schema documents commonly used in 
 SACM/[SCAP](http://scap.nist.gov/)
 XML documents allowing these copies to be used in lieu of direct
 network access to the "canonical" locations. These schema documents change infrequently,
@@ -25,7 +25,7 @@ Usage
 -----
 
 Usage requires an 
-[XML Catalog](https://en.wikipedia.org/wiki/XML_Catalog) 
+[XML Catalog][XML Catalog] 
 aware implementation, such as
 [libxml](http://www.xmlsoft.org/catalog.html).
 
@@ -69,3 +69,6 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+[sacm-xml-catalog]: https://github.com/GaryGapinski/sacm-xml-catalog
+[XML Catalog]: https://en.wikipedia.org/wiki/XML_Catalog "XML Catalog"
