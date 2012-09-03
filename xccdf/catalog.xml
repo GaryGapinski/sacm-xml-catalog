@@ -6,9 +6,6 @@
     <system
         systemId="http://nvd.nist.gov/schema/xccdf-1.1.4.xsd"
         uri="1.1.4/xccdf-1.1.4.xsd"/>
-    <system
-        systemId="http://cpe.mitre.org/files/cpe-dictionary_2.1.xsd"
-        uri="1.1.4/cpe-dictionary_2.1.xsd"/>
     <!-- 1.1.4.3 -->
     <system
         systemId="http://scap.nist.gov/schema/xccdf/1.1/xccdf-1.1.4.xsd"
