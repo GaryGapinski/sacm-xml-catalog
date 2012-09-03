@@ -14,12 +14,9 @@ change very often, and local copies obviate the need for network access
 to the schema documents.
 
 Copies of various versions of
-[XCCDF](http://scap.nist.gov/specifications/xccdf/)
-, 
-[CPE](http://cpe.mitre.org/)
-, 
-[OVAL](http://oval.mitre.org/)
-, 
+[XCCDF](http://scap.nist.gov/specifications/xccdf/), 
+[CPE](http://cpe.mitre.org/), 
+[OVAL](http://oval.mitre.org/), 
 and 
 [OCIL](http://scap.nist.gov/specifications/ocil/)
 schemata are provided.
@@ -30,13 +27,34 @@ Usage
 Usage requires an 
 [XML Catalog](https://en.wikipedia.org/wiki/XML_Catalog) 
 aware implementation, such as
-[libxml](http://www.xmlsoft.org/catalog.html)
-.
+[libxml](http://www.xmlsoft.org/catalog.html).
+
+XML documents can specify the URI of a related XML Schema document 
+using the `xsi:schemaLocation` attribute, e.g.
+```xml
+<Benchmark
+    xmlns="http://checklists.nist.gov/xccdf/1.1"
+    xmlns:cdf="http://checklists.nist.gov/xccdf/1.1"
+    xmlns:cpe="http://cpe.mitre.org/dictionary/2.0"
+    xmlns:cpel="http://cpe.mitre.org/language/2.0"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dsig="http://w3.org/2000/09/xmldsig#"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    id="USGCB-RHEL-5-Desktop"
+    xml:lang="en-US"
+    xsi:schemaLocation="http://checklists.nist.gov/xccdf/1.1 http://nvd.nist.gov/schema/xccdf-1.1.4.xsd 
+                        http://cpe.mitre.org/dictionary/2.0  http://cpe.mitre.org/files/cpe-dictionary_2.1.xsd
+                        "
+    style="SCAP_1.1"
+    resolved="false">
+```
+
 
 License
 -------
 
-Copyright © 2012 Gary Gapinski
+Copyright © 2012 Gary Gapinski.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
