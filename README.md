@@ -54,10 +54,6 @@ sacm-xml-catalog allows the use of local copies of
 and
 `http://cpe.mitre.org/files/cpe-dictionary_2.1.xsd`
 rather than ones obtained from those URIs. 
-See [xccdf/catalog.xml](./xccdf/catalog.xml)
-and
-[cpe/catalog.xml](./cpe/catalog.xml)
-for specifications of URI to local copy for the above example.
 
 License
 -------
